@@ -389,18 +389,19 @@ header {
     align-items: center;
     gap: 25px;
     margin-bottom: 50px;
-    width: 80%;
+    width: 70%;
     border-radius: 10px;
-    margin-left: 10%;
+    margin-left: 15%;
     & .card {
         display: flex;
         flex-direction: row;
         box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.6);
         border-radius: 10px;
         overflow: hidden;
+        width: 100%;
         background: linear-gradient(40deg, rgb(34, 33, 37) 0%, rgb(49, 49, 46)80%, rgb(34, 33, 37)100%);
         & img {
-            height: 350px;
+            height: 300px;
             object-fit: cover;
             object-position: center;
             opacity: 0.9;
